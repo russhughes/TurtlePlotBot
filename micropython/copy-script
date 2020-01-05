@@ -1,0 +1,28 @@
+open ttyUSB0
+lcd vfat
+
+md lib
+md fonts
+md programs
+
+put boot.py
+put main.py
+put ui.cfg
+ls
+
+cd /fonts
+lcd fonts
+mput .*\.fnt
+ls
+lcd ..
+
+cd /lib
+lcd lib
+mput .*\.mpy
+ls
+lcd ..
+
+cd /programs
+lcd programs
+mput .*\.py
+ls

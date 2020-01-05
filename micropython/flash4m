@@ -1,0 +1,10 @@
+#!/bin/sh
+
+echo "Erasing Flash..."
+esptool.py --port /dev/ttyUSB0 erase_flash
+
+echo "Flashing MicroPython for 4MB device..."
+esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash -z 0x1000 turtleplotbot-4m.bin 
+
+echo "Flashing FAT image for 4MB device..."
+esptool.py write_flash 0x200000 vfat-4m.img 

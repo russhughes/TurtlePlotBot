@@ -1,0 +1,11 @@
+venv
+.vscode
+.DS_Store
+*~
+__pycache__
+
+#sphinx build folder
+docs/build
+
+#ignore gcode files
+*.gcode
