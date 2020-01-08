@@ -68,8 +68,8 @@ class UI:
 
         Append a text screen shot of the OLED display in the screenshot.txt
         file.  This can be triggered by a call to the routine or by long
-        pressing the PRG button on the WifiKit32 board any time the UI is
-        waiting for a button press.
+        pressing a button on the Pin 0 any time the UI is waiting for a
+        button press.
 
         Each screen shot starts with a line consisting of the word "BEGIN".
         Each row of the display is represented as a line of '.' and 'X'
