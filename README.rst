@@ -27,12 +27,11 @@ A TurtlePlotBot is built from 3D printed parts, a pair of 28BYJ-48
 stepper motors and uses a MG90S mini servo to lift and lower a pen used for
 drawing.
 
-A `Heltec <https://heltec.org/>`_ ESP-32 Based `WiFi Kit32
-<https://heltec.org/project/wifi-kit-32/>`_ module with a 128x64 OLED display
-running MicroPython is paired with a `ESP32 DrawBot Board` to provide the
-interface circuitry needed to run the stepper motors, servo, MicroSD card and
-a five way joystick. The TurtlePlotBot has Wifi capability allowing it to be
-controlled and programmed wirelessly from a computer, smartphone or tablet.
+An ESP-32 Based module with a 128x64 OLED display running MicroPython is
+paired with a `ESP32 DrawBot Board` to provide the interface circuitry needed
+to run the stepper motors, servo, MicroSD card and a five way joystick. The
+TurtlePlotBot has Wifi capability allowing it to be controlled and programmed
+wirelessly from a computer, smartphone or tablet.
 
 A menu system provides an easy way to configure the TurtlePlotBot, connect to
 or create a Wifi access point as well as running TurtlePlotBot MicroPython

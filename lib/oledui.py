@@ -40,7 +40,7 @@ class UI:
     """
     def __init__(self):
 
-        # init i2c oled on Heltec Wifi Kit 32
+        # init i2c oled
         Pin(16, Pin.OUT).value(1)
 
         self.display = ssd1306.SSD1306_I2C(

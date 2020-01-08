@@ -22,14 +22,14 @@
 
 """
 .. module:: turtleplotbot
-   :synopsis: functions to control the |wifikit32| based TurtlePlotBot
+   :synopsis: functions to control a ESP-32 based TurtlePlotBot
 
 TurtlePlotBot Class Functions
 ============================
 
 The `turtleplotbot` module contains the `TurtlePlotBot` class used to provide the
 hardware interface needed by the `turtleplotbot` module to run a
-`TurtlePlotBot` using a |heltec| |wifikit32| device and a |esp32bot|.
+`TurtlePlotBot` using an ESP-32 device and a |esp32bot|.
 
 .. topic::Library Dependencies
 
